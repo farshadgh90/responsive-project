@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+.form {
+    position: absolute;
+    top: 80px;
+    right: 40px;
+}
+.img {
+    margin-bottom: 90px;
+}
+.about {
+    padding: 20px;
+}
+#feature {
+    /* opacity: 0;
+    transition: all 0.5s; */
+}
+.feature {
+    margin: 5px;
+    padding: 20px;
+    border: rgba(32, 50, 61, 1) 2px solid ;
+    border-radius: 30px;
+}
+#gallery {
+    padding: 20px;
+    font-size: xx-large;
+}
+.glyphicon {
+    font-size: 50px;
+    padding: 20px;
+}
+#comment {
+    height: 50%;
+    /* width: 50%; */
+}
+#prices {
+    padding: 20px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.contact {
+    border-bottom: black 2px solid;
+}
+.con {
+    padding: 20px;
+}
+.arrow {
+    position: relative;
+    left: 48%;
+}
+.footer {
+    background-color: rgb(196, 196, 221);
+    margin-top: 30px;
+}
+@media only screen and (max-width : 600px){
+    .c-3 {
+        padding: 20px;
+        right: 0;
+        width: 100%;
+        height: auto;
+    }
+}
+.navbar {
+    background-color: rgb(49, 49, 49);
+}
+  
